@@ -6,9 +6,9 @@ export function Post() {
       <header className={styles.postHeader}>
         <div className={styles.author}>
           <img className={styles.avatar}
-            src="https://avatars.githubusercontent.com/u/102111932?v=4" />
+            src="https://avatars.githubusercontent.com/u/25847601?v=4" />
           <div className={styles.authorInfo}>
-            <strong>Thailan Ribeiro</strong>
+            <strong>Matheus Ferreira</strong>
             <span>Web Developer</span>
           </div>
         </div>
@@ -27,7 +27,7 @@ export function Post() {
         </p>
 
         <p>
-          <a href="#">👉 jane.design/doctorcare</a>
+          <a href="#">👉 wyvern800/doctorcare</a>
         </p>
 
         <p>
@@ -35,6 +35,16 @@ export function Post() {
         </p>
 
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea placeholder="O que você achou do conteúdo?" 
+        />
+        <footer>
+        <button type="submit">Comentar</button>
+        </footer>
+      </form>
     </article>
   )
 }
