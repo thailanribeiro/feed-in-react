@@ -2,7 +2,30 @@
   "hash": "a864eaba",
   "configHash": "202968ed",
   "lockfileHash": "248d4de8",
-  "browserHash": "0a6ec74c",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "770f3bc9",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "f8144cb6",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "84780461",
+      "needsInterop": true
+    },
+    "@phosphor-icons/react": {
+      "src": "../../node_modules/@phosphor-icons/react/dist/index.mjs",
+      "file": "@phosphor-icons_react.js",
+      "fileHash": "3a07c91b",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-N3BBKUNS": {
+      "file": "chunk-N3BBKUNS.js"
+    }
+  }
 }
